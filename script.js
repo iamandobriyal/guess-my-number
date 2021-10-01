@@ -8,6 +8,7 @@
  */
 let number = Math.trunc(Math.random()*20)+1;
 let score = 20;
+let highScore= 0;
 
 
 document.querySelector('.check').addEventListener('click',function(){
@@ -19,6 +20,9 @@ document.querySelector('.check').addEventListener('click',function(){
     } 
     else if (guess == number)
     {
+        if(score>highScore){
+            highScore=score;
+        }
         document.querySelector('body').style.background ="#60b347";
         document.querySelector('.message').textContent = '🎉Correct Number';
         document.querySelector('.number').textContent = number;
