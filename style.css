@@ -124,3 +124,34 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width:780px){
+  body{
+    height: 96vh;
+  }
+  .btn{
+    display: flex;
+   width: 120px;
+   align-items: center;
+   justify-content: center;
+   font-size: 14px;
+  }
+  .guess{
+    width: 70%;
+    height: 80px;
+  }
+  .label-highscore,.label-score,.message{
+    font-size: 14px;
+  }
+  .message{
+    position: absolute;
+    top: 60%;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .between{
+    position: absolute;
+    top: 13%;
+  }
+}
