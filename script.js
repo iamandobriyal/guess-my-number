@@ -29,7 +29,7 @@ document.querySelector('.check').addEventListener('click',function(){
     {
         if(score>1)
         {
-        document.querySelector('.message').textContent = guess + ' is Too High!';
+        document.querySelector('.message').textContent = guess +' is Too High!';
         score--;
         document.querySelector('.score').textContent= score;
         }
@@ -68,4 +68,5 @@ document.querySelector('.btn').addEventListener('click',function(){
         document.querySelector('.number').style.width= "15rem";
         document.querySelector('.score').textContent = '0';
         document.querySelector('.guess').value = '';
+        document.querySelector('.number').style.width= "200px";
 })
