@@ -127,7 +127,7 @@ h1 {
 
 @media only screen and (max-width:780px){
   body{
-    height: 90vh;
+    height: 80vh;
   }
   .btn{
     display: flex;
