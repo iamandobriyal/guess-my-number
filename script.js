@@ -29,7 +29,7 @@ document.querySelector('.check').addEventListener('click',function(){
     {
         if(score>1)
         {
-        document.querySelector('.message').textContent = 'Too High!';
+        document.querySelector('.message').textContent = guess + ' is Too High!';
         score--;
         document.querySelector('.score').textContent= score;
         }
@@ -45,7 +45,7 @@ document.querySelector('.check').addEventListener('click',function(){
         
         if(score>1)
         {
-        document.querySelector('.message').textContent = 'Too Low!';
+        document.querySelector('.message').textContent = guess + ' is Too Low!';
         score--;
         document.querySelector('.score').textContent= score;
         }
