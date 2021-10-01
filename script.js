@@ -12,6 +12,7 @@ let score = 20;
 
 document.querySelector('.check').addEventListener('click',function(){
     const guess=document.querySelector('.guess').value;
+    document.querySelector('.guess').value = '';
     if(!guess)
     {
         document.querySelector('.message').textContent = 'Please enter a number'; 
