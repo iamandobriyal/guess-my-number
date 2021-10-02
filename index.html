@@ -8,24 +8,37 @@
     <title>Guess My Number!</title>
   </head>
   <body>
+    <div class="overlay">
+    <div class="pop-up">
+      <h1>Welcome!</h1>
+      <p>This is a simple game where you try to guess the number hidden behind the box in center. The number is between 1 to 20. Have fun!</p>
+      <button class="submit">Play Now</button>
+    </div>
+  </div>
     <header>
-      <h1>Guess My Number!</h1>
+      <div class="nav">
+        <button class="btn again">Again!</button>
       <p class="between">(Between 1 and 20)</p>
-      <button class="btn again">Again!</button>
+      </div>
+      <div class="text2">
+      <h1>Guess My Number!</h1>
+    </div>
+    <div class="number-container">
       <div class="number">?</div>
+    </div>
     </header>
     <main>
-      <section class="left">
+      <div class="left">
         <input type="number" class="guess" />
         <button class="btn check">Check!</button>
-      </section>
-      <section class="right">
+      </div>
+      <div class="right">
         <p class="message">Start guessing...</p>
         <p class="label-score">💯 Score: <span class="score">20</span></p>
         <p class="label-highscore">
           🥇 Highscore: <span class="highscore">0</span>
         </p>
-      </section>
+      </div>
     </main>
     <script src="script.js"></script>
   </body>
