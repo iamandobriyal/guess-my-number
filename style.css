@@ -166,4 +166,7 @@ input{
   main{
     margin-top: 100px;
   }
+  .pop-up{
+    width: 70%;
+  }
 }
